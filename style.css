@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  background: #000; }
+
+#board {
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+  margin: auto; }
+
+.square {
+  float: left;
+  width: 12.5%;
+  height: 12.5%; }
+
+.black {
+  background: #4c4c4c; }
+
+.white {
+  background: #fff; }
+
+.figure {
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  font-size: 8vh;
+  text-align: center; }
+
+.pawn.white:before {
+  content: "♙"; }
+
+.pawn.black:before {
+  content: "♟"; }
+
+.rook.white:before {
+  content: "♖"; }
+
+.rook.black:before {
+  content: "♜"; }
+
+.knight.white:before {
+  content: "♘"; }
+
+.knight.black:before {
+  content: "♞"; }
+
+.bishop.white:before {
+  content: "♗"; }
+
+.bishop.black:before {
+  content: "♝"; }
+
+.queen.white:before {
+  content: "♕"; }
+
+.queen.black:before {
+  content: "♛"; }
+
+.king.white:before {
+  content: "♔"; }
+
+.king.black:before {
+  content: "♚"; }
+
+/*# sourceMappingURL=style.css.map */

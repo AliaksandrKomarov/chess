@@ -5,7 +5,7 @@ body {
   margin: 0;
   background: #000; }
 
-body > div:firts-child {
+body > div.video {
   flex-grow: 1;
   height: 100vh;
 }
